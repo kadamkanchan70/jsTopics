@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Of Circle</title>
+</head>
+<body>
+    <h1>Area Of Circle</h1>
+    <h2>Various type:</h2>
+    <script>
+        console.log("Type1:No Argument and No Return")
+        r1=5;
+        function AreaOfCricle1(){
+            const area1=2*3.14*r1;
+            console.log(`Area of Circle :${area1}`);
+        }
+        AreaOfCricle1();
+
+        console.log("Type2: Argument But No Return")
+        function AreaOfCricle2(r2){
+            const area2=2*3.14*r2;
+            console.log(`Area of Circle :${area2}`);
+        }
+        AreaOfCricle2(10);
+
+        console.log("Type3:No Argument But Return")
+        const r3=2;
+        function AreaOfCricle3(){
+            const area3=2*3.14*r3;
+            console.log(`Area of Circle :${area3}`);
+            return area3;
+
+        }
+        AreaOfCricle3();
+
+        console.log("Type4 :Argument and Return ")
+        function AreaOfCircle4(r4)
+        {
+            const area4 = 2 * 3.14 *r4;
+            console.log(`Area of circle :${area4}`);
+            return area4;
+        }
+        AreaOfCircle4(5);
+    </script>
+</body>
+</html>
